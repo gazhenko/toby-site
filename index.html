@@ -15,11 +15,12 @@
       content="Free self-hosting and cloud hosting paths for Toby, with clear boundaries for data, tools, keys, and logs."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="assets/toby-secure-cloud-hero.jpg" />
+    <meta property="og:image" content="assets/toby-logo-mark.png" />
     <link rel="preload" href="assets/toby-secure-cloud-hero.jpg" as="image" />
+    <link rel="preload" href="assets/toby-logo.svg" as="image" />
     <link rel="alternate" type="application/json" href="agent.json" title="Agent-readable Toby profile" />
     <link rel="alternate" type="text/plain" href="llms.txt" title="LLM brief for Toby" />
-    <link rel="stylesheet" href="styles.css?v=20260613c" />
+    <link rel="stylesheet" href="styles.css?v=toby-logo-theme-20260613" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -53,7 +54,7 @@
 
     <header class="site-header" aria-label="Primary navigation">
       <a class="brand" href="#top" aria-label="Toby home">
-        <span class="brand-mark" aria-hidden="true">T</span>
+        <img class="brand-mark" src="assets/toby-logo-mark.svg" alt="" width="34" height="34" />
         <span>Toby</span>
       </a>
       <nav class="nav-links" aria-label="Site sections">
@@ -75,9 +76,12 @@
           height="941"
         />
         <div class="hero-scrim" aria-hidden="true"></div>
+        <img class="hero-mark" src="assets/toby-logo-mark.svg" alt="" aria-hidden="true" width="128" height="128" />
         <div class="hero-inner">
           <p class="eyebrow">Private AI agents, run where you choose</p>
-          <h1 id="hero-title">Toby</h1>
+          <h1 id="hero-title" class="hero-title">
+            <img src="assets/toby-logo.svg" alt="Toby" width="360" height="128" />
+          </h1>
           <p class="hero-copy">
             Run Toby yourself, in your cloud, or in ours. Keep the work,
             secrets, and logs where you can see them.
@@ -430,7 +434,7 @@
     <footer class="site-footer">
       <div class="section-inner footer-inner">
         <a class="brand footer-brand" href="#top" aria-label="Toby home">
-          <span class="brand-mark" aria-hidden="true">T</span>
+          <img class="brand-mark" src="assets/toby-logo-mark.svg" alt="" width="34" height="34" />
           <span>Toby</span>
         </a>
         <p>Private AI agents, run where you choose.</p>
@@ -442,6 +446,6 @@
       </div>
     </footer>
 
-    <script src="script.js?v=20260613b"></script>
+    <script src="script.js?v=toby-logo-theme-20260613"></script>
   </body>
 </html>

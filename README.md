@@ -8,6 +8,8 @@ Static website for Toby: private AI agents with free self-hosting and hosted pat
 - `agent.json` - structured agent-readable service profile
 - `llms.txt` - short LLM brief
 - `robots.txt` - crawler policy
+- `assets/toby-logo.svg` - Toby wordmark from the public repo README
+- `assets/toby-logo-mark.svg` - Toby mark from the public repo README
 - `assets/toby-secure-cloud-hero.jpg` - optimized hero image used by the page
 - `assets/toby-secure-cloud-hero.png` - generated source image
 
