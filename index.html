@@ -16,11 +16,12 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="assets/toby-logo-mark.png" />
+    <link rel="icon" type="image/png" href="assets/toby-logo-mark.png" />
     <link rel="preload" href="assets/toby-secure-cloud-hero.jpg" as="image" />
     <link rel="preload" href="assets/toby-logo.svg" as="image" />
     <link rel="alternate" type="application/json" href="agent.json" title="Agent-readable Toby profile" />
     <link rel="alternate" type="text/plain" href="llms.txt" title="LLM brief for Toby" />
-    <link rel="stylesheet" href="styles.css?v=toby-logo-theme-20260613" />
+    <link rel="stylesheet" href="styles.css?v=pricing-20260613" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -60,6 +61,7 @@
       <nav class="nav-links" aria-label="Site sections">
         <a href="#vision">Vision</a>
         <a href="#hosting">Hosting</a>
+        <a href="#pricing">Pricing</a>
         <a href="#security">Security</a>
         <a href="#agents">Agents</a>
       </nav>
@@ -248,6 +250,95 @@
                   <dd>Your cloud account, KMS, and observability stack</dd>
                 </div>
               </dl>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pricing-section" id="pricing" aria-labelledby="pricing-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Pricing</p>
+            <h2 id="pricing-title">Pay for the runtime and control layer, not mystery usage.</h2>
+            <p>
+              Toby should stay free to inspect and run yourself. Hosted plans
+              cover the secure runtime, updates, and support. Bring your own
+              model keys or use capped credits; unlimited AI usage is not baked
+              into these prices.
+            </p>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="pricing-card">
+              <p class="pricing-label">Open source</p>
+              <h3>Self-host</h3>
+              <p class="price">$0</p>
+              <p class="price-note">No hosted support</p>
+              <ul>
+                <li>Run Toby on your machine or cloud account</li>
+                <li>Read and modify the source</li>
+                <li>Community updates through the public repo</li>
+              </ul>
+            </article>
+
+            <article class="pricing-card">
+              <p class="pricing-label">Managed</p>
+              <h3>Private Toby</h3>
+              <p class="price">$29<span>/user/mo</span></p>
+              <p class="price-note">$290/year, bring your own model keys</p>
+              <ul>
+                <li>Hosted Toby workspace</li>
+                <li>Scoped connectors and basic audit history</li>
+                <li>Email support</li>
+              </ul>
+            </article>
+
+            <article class="pricing-card">
+              <p class="pricing-label">Team</p>
+              <h3>Managed Team</h3>
+              <p class="price">$49<span>/user/mo</span></p>
+              <p class="price-note">3 user minimum</p>
+              <ul>
+                <li>Shared workspaces and team controls</li>
+                <li>Pooled usage and connector policies</li>
+                <li>Team audit logs</li>
+              </ul>
+            </article>
+
+            <article class="pricing-card featured-pricing">
+              <p class="pricing-label">Dedicated</p>
+              <h3>Cloud Toby</h3>
+              <p class="price">$750<span>/mo</span></p>
+              <p class="price-note">Plus $49/user/mo</p>
+              <ul>
+                <li>Dedicated tenancy</li>
+                <li>SSO support and private networking options</li>
+                <li>Deployment review and priority support</li>
+              </ul>
+            </article>
+
+            <article class="pricing-card">
+              <p class="pricing-label">Owned cloud</p>
+              <h3>Bring Your Own Cloud</h3>
+              <p class="price">From $1.5k<span>/mo</span></p>
+              <p class="price-note">Plus deployment and user support</p>
+              <ul>
+                <li>Your account, network, KMS, and logs</li>
+                <li>Managed upgrades and deployment guidance</li>
+                <li>Annual support available</li>
+              </ul>
+            </article>
+
+            <article class="pricing-card contact-pricing">
+              <p class="pricing-label">Enterprise</p>
+              <h3>Regulated teams</h3>
+              <p class="price">Contact us</p>
+              <p class="price-note">Security review, SLA, procurement, and custom controls</p>
+              <ul>
+                <li>Custom retention and approval policies</li>
+                <li>Security review and deployment planning</li>
+                <li>Priority fixes and account support</li>
+              </ul>
             </article>
           </div>
         </div>
@@ -446,6 +537,6 @@
       </div>
     </footer>
 
-    <script src="script.js?v=toby-logo-theme-20260613"></script>
+    <script src="script.js?v=pricing-20260613"></script>
   </body>
 </html>
