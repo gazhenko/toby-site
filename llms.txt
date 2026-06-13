@@ -10,14 +10,14 @@ Free open-source self-hosting for Toby, plus managed cloud paths for users who w
 
 ## Deployment Paths
 
-- Open Source Self-Host: free self-hosting for developers, homelab users, auditors, and privacy maximalists who want to read the code and operate Toby themselves.
+- Open Source Self-Host: free self-hosting for developers, homelab users, auditors, and privacy maximalists who want to read the code and operate Toby themselves. Get started at https://github.com/ryanpetris/toby#get-started.
 - Managed Private Toby: fastest path for individuals, founders, consultants, and small teams.
 - Dedicated Cloud Toby: dedicated environment for teams that need stronger admin controls and isolation.
 - Bring Your Own Cloud: Toby deployed into the customer's own cloud account for maximum custody.
 
 ## Pricing
 
-- Open Source Self-Host: $0, no hosted support.
+- Open Source Self-Host: $0, no hosted support. Getting started links to https://github.com/ryanpetris/toby#get-started.
 - Managed Private Toby: $29/user/month or $290/year. Users can bring their own model keys or use capped credits.
 - Managed Team: $49/user/month with a 3 user minimum.
 - Dedicated Cloud Toby: $750/month base plus $49/user/month.

@@ -491,6 +491,39 @@ button {
   font-size: 0.94rem;
 }
 
+.pricing-action {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 8px;
+  border: 1px solid rgba(216, 138, 44, 0.34);
+  border-radius: 6px;
+  background: rgba(242, 184, 90, 0.16);
+  color: var(--emerald-dark);
+  padding: 9px 11px;
+  font-size: 0.9rem;
+  font-weight: 760;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.pricing-action:hover,
+.pricing-action:focus-visible {
+  border-color: rgba(216, 138, 44, 0.58);
+  background: rgba(242, 184, 90, 0.26);
+  outline: none;
+}
+
+.pricing-action svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 .pricing-card ul {
   display: grid;
   gap: 10px;
