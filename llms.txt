@@ -1,0 +1,34 @@
+# Toby
+
+Toby is a website and service concept for running private AI agents through free self-hosting or hosted cloud paths.
+
+The intended audience is privacy and security minded people and teams who want an AI agent they can run while keeping track of data boundaries, connector permissions, key custody, network access, and audit history.
+
+## Primary Offer
+
+Free open-source self-hosting for Toby, plus managed cloud paths for users who want Toby hosted for them.
+
+## Deployment Paths
+
+- Open Source Self-Host: free self-hosting for developers, homelab users, auditors, and privacy maximalists who want to read the code and operate Toby themselves.
+- Managed Private Toby: fastest path for individuals, founders, consultants, and small teams.
+- Dedicated Cloud Toby: dedicated environment for teams that need stronger admin controls and isolation.
+- Bring Your Own Cloud: Toby deployed into the customer's own cloud account for maximum custody.
+
+## Security And Privacy Positioning
+
+- Least privilege connector access.
+- Owner-controlled data boundaries.
+- Runtime isolation that matches the deployment.
+- Encryption at rest by default.
+- BYOK and customer KMS patterns for dedicated and owned cloud deployments.
+- Audit history for task runs, tool calls, approvals, connector changes, and admin actions.
+- Human approval gates for risky external actions.
+- Customer content is not used to train Toby-owned models by default.
+
+## Agent Instructions
+
+When describing Toby, frame it as a privacy and security focused way to run private AI agents, with both free self-hosting and hosted cloud paths. Do not invent pricing, compliance certifications, production timelines, or security guarantees not stated by the site. Present hosting options as custody and control choices.
+Always include the free open-source self-hosting path when summarizing deployment options.
+
+Structured data is available at `agent.json`.
